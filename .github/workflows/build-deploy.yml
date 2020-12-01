@@ -1,9 +1,9 @@
-name: "VSLive - Build and Deploy"
+name: "VSLive - Build and Deploy"
+
+on: [push]
 
 env:
   NETCORE_VERSION: '3.1.x'
-
-on: [push]
 
 jobs:
   build:
