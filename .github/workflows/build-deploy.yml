@@ -5,7 +5,7 @@ on: [push]
 env:
   NETCORE_VERSION: '3.1.x'
   AZURE_WEBAPP_PACKAGE_PATH: './published'
-  AZURE_WEBAPP_NAME: 'vslive-prep'
+  AZURE_WEBAPP_NAME: 'vslive-prep2'
 
 jobs:
   build:
